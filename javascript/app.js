@@ -26,7 +26,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement1 =document.createElement('li');
   sale1.appendChild(lielement1) ;
   let cookies1=custmer(Seattle.min,Seattle.max)*Seattle.avg;
-  lielement1.textContent=hours[i]+" ...= "+cookies1;
+  lielement1.textContent=hours[i]+" ...= "+Math.floor(cookies1)+' cookies .';
   
   total1=total1+cookies1
   
@@ -58,7 +58,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement2 =document.createElement('li');
   sale2.appendChild(lielement2) ;
   let cookies2=custmer(Tokyo.min,Tokyo.max)*Tokyo.avg;
-  lielement2.textContent=hours[i]+" ...= "+cookies2;
+  lielement2.textContent=hours[i]+" ...= "+Math.floor(cookies2)+' cookies .';
   
   total2=total2+cookies2
   
@@ -90,7 +90,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale3.appendChild(lielement) ;
   let cookies=custmer(Dubai.min,Dubai.max)*Dubai.avg;
-  lielement.textContent=hours[i]+" ...= "+cookies;
+  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
   
   total3=total3+cookies
   
@@ -121,7 +121,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale4.appendChild(lielement) ;
   let cookies=custmer(Paris.min,Paris.max)*Paris.avg;
-  lielement.textContent=hours[i]+" ...= "+cookies;
+  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
   
   total4=total4+cookies
   
@@ -153,7 +153,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale5.appendChild(lielement) ;
   let cookies=custmer(Lima.min,Lima.max)*Lima.avg;
-  lielement.textContent=hours[i]+" ...= "+cookies;
+  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
   
   total5=total5+cookies
   
