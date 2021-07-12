@@ -35,7 +35,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal1=document.createElement('p');
 stores1.appendChild(sumTotal1);
-sumTotal1.textContent='total =   '+total1
+sumTotal1.textContent='total :   '+Math.floor(total1)+' cookies .'
 console.log(total1)
 let Tokyo = {
   name : 'Tokyo',
@@ -67,7 +67,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal2=document.createElement('p');
 stores2.appendChild(sumTotal2);
-sumTotal2.textContent='total   = '+total2
+sumTotal2.textContent='total   : '+Math.floor(total2)+' cookies .'
 console.log(total2)
 
 
@@ -99,7 +99,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal3=document.createElement('p');
 stores3.appendChild(sumTotal3);
-sumTotal3.textContent='total  =  '+total3
+sumTotal3.textContent='total  :  '+Math.floor(total3)+' cookies .'
 console.log(total3)
 let Paris = {
   name : 'Paris',
@@ -131,7 +131,7 @@ for (let i = 0; i < hours.length; i++) {
 let sumTotal4=document.createElement('p');
 stores4.appendChild(sumTotal4);
 
-sumTotal4.textContent='total  =  '+total4
+sumTotal4.textContent='total  :  '+Math.floor(total4)+' cookies .'
 console.log(total4)
 
 let Lima = {
@@ -163,6 +163,5 @@ for (let i = 0; i < hours.length; i++) {
 let sumTotal5=document.createElement('p');
 stores5.appendChild(sumTotal5);
 
-sumTotal5.textContent='total  =  '+total5
-console.log(total5)
-
+sumTotal5.textContent='total  :   '+Math.floor(total5)+' cookies .'
+console.log(total5+total1+total2+total3+total4);
