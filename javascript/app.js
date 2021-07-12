@@ -26,7 +26,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement1 =document.createElement('li');
   sale1.appendChild(lielement1) ;
   let cookies1=custmer(Seattle.min,Seattle.max)*Seattle.avg;
-  lielement1.textContent=hours[i]+" ...= "+Math.floor(cookies1)+' cookies .';
+  lielement1.textContent=`${hours[i]} ...= ${Math.floor(cookies1)} cookies .`;
   
   total1=total1+cookies1
   
@@ -35,7 +35,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal1=document.createElement('p');
 stores1.appendChild(sumTotal1);
-sumTotal1.textContent='total :   '+Math.floor(total1)+' cookies .'
+sumTotal1.textContent=`total :   ${Math.floor(total1)} cookies .`
 console.log(total1)
 let Tokyo = {
   name : 'Tokyo',
@@ -58,7 +58,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement2 =document.createElement('li');
   sale2.appendChild(lielement2) ;
   let cookies2=custmer(Tokyo.min,Tokyo.max)*Tokyo.avg;
-  lielement2.textContent=hours[i]+" ...= "+Math.floor(cookies2)+' cookies .';
+  lielement2.textContent=`${hours[i]}+" ...= ${Math.floor(cookies2)} cookies .`;
   
   total2=total2+cookies2
   
@@ -67,7 +67,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal2=document.createElement('p');
 stores2.appendChild(sumTotal2);
-sumTotal2.textContent='total   : '+Math.floor(total2)+' cookies .'
+sumTotal2.textContent=`total   : ${Math.floor(total2)} cookies .`
 console.log(total2)
 
 
@@ -90,7 +90,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale3.appendChild(lielement) ;
   let cookies=custmer(Dubai.min,Dubai.max)*Dubai.avg;
-  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
+  lielement.textContent=`${hours[i]} ...= ${Math.floor(cookies)} cookies .`;
   
   total3=total3+cookies
   
@@ -99,7 +99,7 @@ for (let i = 0; i < hours.length; i++) {
 }
 let sumTotal3=document.createElement('p');
 stores3.appendChild(sumTotal3);
-sumTotal3.textContent='total  :  '+Math.floor(total3)+' cookies .'
+sumTotal3.textContent=`total  :  ${Math.floor(total3)} cookies .`
 console.log(total3)
 let Paris = {
   name : 'Paris',
@@ -121,7 +121,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale4.appendChild(lielement) ;
   let cookies=custmer(Paris.min,Paris.max)*Paris.avg;
-  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
+  lielement.textContent=`${hours[i]} ...= ${Math.floor(cookies)} cookies .`;
   
   total4=total4+cookies
   
@@ -131,7 +131,7 @@ for (let i = 0; i < hours.length; i++) {
 let sumTotal4=document.createElement('p');
 stores4.appendChild(sumTotal4);
 
-sumTotal4.textContent='total  :  '+Math.floor(total4)+' cookies .'
+sumTotal4.textContent=`total  :  ${Math.floor(total4)} cookies .`
 console.log(total4)
 
 let Lima = {
@@ -153,7 +153,7 @@ for (let i = 0; i < hours.length; i++) {
   let lielement =document.createElement('li');
   sale5.appendChild(lielement) ;
   let cookies=custmer(Lima.min,Lima.max)*Lima.avg;
-  lielement.textContent=hours[i]+" ...= "+Math.floor(cookies)+' cookies .';
+  lielement.textContent=`${hours[i]} ...= ${Math.floor(cookies)} cookies .`;
   
   total5=total5+cookies
   
@@ -163,5 +163,5 @@ for (let i = 0; i < hours.length; i++) {
 let sumTotal5=document.createElement('p');
 stores5.appendChild(sumTotal5);
 
-sumTotal5.textContent='total  :   '+Math.floor(total5)+' cookies .'
+sumTotal5.textContent=`total  :   ${Math.floor(total5)} cookies .`
 console.log(total5+total1+total2+total3+total4);
