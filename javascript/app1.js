@@ -53,7 +53,7 @@ for (let i = 0; i< hours.length; i++) {
     
      let secRaw=document.createElement('tr');
      table.appendChild(secRaw);
-     let nameOFraw=document.createElement('th');
+     let nameOFraw=document.createElement('td');
      secRaw.appendChild(nameOFraw)
      nameOFraw.textContent=Seattle.name;
   let Seattleee=[];
@@ -80,7 +80,7 @@ for (let i = 0; i< hours.length; i++) {
          
           let secRaw2=document.createElement('tr');
           table.appendChild(secRaw2);
-          let nameOFraw2=document.createElement('th');
+          let nameOFraw2=document.createElement('td');
           secRaw2.appendChild(nameOFraw2)
           nameOFraw2.textContent=Tokyo.name;
           let  Tokyooo=[];
@@ -105,7 +105,7 @@ for (let i = 0; i< hours.length; i++) {
          
      let secRaw3=document.createElement('tr');
      table.appendChild(secRaw3);
-     let nameOFraw3=document.createElement('th');
+     let nameOFraw3=document.createElement('td');
      secRaw3.appendChild(nameOFraw3)
      nameOFraw3.textContent=Dubai.name;
      
@@ -133,7 +133,7 @@ for (let i = 0; i< hours.length; i++) {
          
           let secRaw4=document.createElement('tr');
           table.appendChild(secRaw4);
-          let nameOFraw4=document.createElement('th');
+          let nameOFraw4=document.createElement('td');
           secRaw4.appendChild(nameOFraw4)
           nameOFraw4.textContent=Paris.name;
           
@@ -162,7 +162,7 @@ for (let i = 0; i< hours.length; i++) {
          
           let secRaw5=document.createElement('tr');
           table.appendChild(secRaw5);
-          let nameOFraw5=document.createElement('th');
+          let nameOFraw5=document.createElement('td');
           secRaw5.appendChild(nameOFraw5)
           nameOFraw5.textContent=Lima.name;
           
@@ -191,10 +191,10 @@ for (let i = 0; i< hours.length; i++) {
            
             totalHours=(Seattleee[i]+Tokyooo[i]+Dubaiii[i]+Parisss[i]+Limaaa[i])
             console.log(totalHours);
-            let totalnumDaily7=document.createElement('td');
+            let totalnumDaily7=document.createElement('th');
             secRaw6.appendChild(totalnumDaily7);
             totalnumDaily7.textContent=`Total : ${totalHours} cookies/Hour`
           }
-        let totalnumDaily6=document.createElement('td');
+        let totalnumDaily6=document.createElement('th');
         secRaw6.appendChild(totalnumDaily6);
         totalnumDaily6.textContent=`Total : ${total5+total1+total2+total3+total4} cookies from all cities and hours`
