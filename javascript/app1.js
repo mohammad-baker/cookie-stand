@@ -42,6 +42,7 @@ Seattle.rand();
 let parent=document.getElementById('parent');
 let table=document.createElement('table');
 parent.appendChild(table);
+function red(){
 let firstraw=document.createElement('tr');
 table.appendChild(firstraw);
 for (let i = 0; i< hours.length; i++) {
@@ -49,8 +50,8 @@ for (let i = 0; i< hours.length; i++) {
     firstraw.appendChild(firstraw1);
     firstraw1.textContent=hours[i]
     }
-
-    
+   }
+   red(); 
      let secRaw=document.createElement('tr');
      table.appendChild(secRaw);
      let nameOFraw=document.createElement('td');
@@ -180,7 +181,7 @@ for (let i = 0; i< hours.length; i++) {
           let totalnumDaily5=document.createElement('td');
           secRaw5.appendChild(totalnumDaily5);
           totalnumDaily5.textContent=`Total : ${total5} cookies`
-              
+          function green(){    
           let secRaw6=document.createElement('tr');
           table.appendChild(secRaw6);
           let nameOFraw6=document.createElement('th');
@@ -198,3 +199,5 @@ for (let i = 0; i< hours.length; i++) {
         let totalnumDaily6=document.createElement('th');
         secRaw6.appendChild(totalnumDaily6);
         totalnumDaily6.textContent=`Total : ${total5+total1+total2+total3+total4} cookies from all cities and hours`
+         }
+         green();
