@@ -201,3 +201,17 @@ for (let i = 0; i< hours.length; i++) {
         totalnumDaily6.textContent=`Total : ${total5+total1+total2+total3+total4} cookies from all cities and hours`
          }
          green();
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,51 @@
 tr,th,table,td{
-    border: 2px solid black;
+    border: 5px solid rgb(238, 218, 129);
+    color: blanchedalmond;
+}
+body{
+    background-color: #402218;
+}
+header{
+    height: 8em;
+    text-align: justify;
+    height: 8em;
+    background-color: #865439;
+    
+}
+h1{
+    margin-right: 70%;
+    vertical-align: middle;
+}
+main{
+    background-color: #C68B59;
+}
+footer{
+    background-color: #D7B19D;
+}
+img{
+    align-items: center;
+    width: 29%;
+    padding: 2%;
+}
+div{
+    align-items: center;
+    display: inline;
+}
+nav{
+    float: right;
+    align-items: center;
+}
+nav ul li{
+    display:inline-block;
+    vertical-align: middle;
+    
+    }
+a{
+    padding-left: 70px;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #dfc37c;
+    height: 100%;
+    vertical-align: middle;
 }
