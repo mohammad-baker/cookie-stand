@@ -1,6 +1,7 @@
 tr,th,table,td{
-    border: 5px solid rgb(238, 218, 129);
+    border: 2px solid rgb(238, 218, 129);
     color: blanchedalmond;
+    border-collapse:collapse ;
 }
 body{
     background-color: #402218;
@@ -48,4 +49,7 @@ a{
     color: #dfc37c;
     height: 100%;
     vertical-align: middle;
+}
+#contain{
+    color: cornsilk;
 }

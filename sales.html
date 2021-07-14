@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <a href="index.html"><img src="image/salmon.png" alt=""></a>
     <a href="index.html">home page</a>
     <a href="index.html"><img src="image/salmon.png" alt=""></a>
-    
-    
+
+
     <div id="parent"></div>
+    <main id="contain"></main>
+    <form id="form">
+        <fieldset>
+            <label for="nameOfTheTown"><strong>city name</strong></label>
+            <input type="text" name="nameOfTheTown" id="nameOfTheTown" placeholder="input the name of the town" required>
+            <br>
+            <br>
+            <label for="maxOfNumber"><strong>maximum number</strong></label>
+            <input type="number" name="maxOfNumber" id="maxOfNumber" placeholder="input the maximum" required>
+            <br>
+            <br>
+            <label for="minOfNumber"><strong>minimum number</strong></label>
+            <input type="number" name="minOfNumber" id="minOfNumber" placeholder="input the minimum" required>
+            <br>
+            <br>
+            <label for="avgOfNumber"><strong>average number</strong></label>
+            <input type="float" name="avgOfNumber" id="avgOfNumber" placeholder="input the average" required> 
+            <br>
+            <br>
+            <input type="submit" value="add city">
+        </fieldset>
+
+    </form>
 </body>
-<script src = "javascript/app1.js"></script>
+<script src="javascript/app.js"></script>
+
 </html>
