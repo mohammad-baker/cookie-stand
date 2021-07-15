@@ -116,7 +116,7 @@ function submiting(event) {
     let name=event.target.nameOfTheTown.value;
     let MAXX=parseInt (event.target.maxOfNumber.value);
     let MINN=parseInt(event.target.minOfNumber.value);
-    let AVGG=parseInt(event.target.avgOfNumber.value);
+    let AVGG=parseFloat(event.target.avgOfNumber.value);
     let addcookies=new Cookies(name,MAXX,MINN,AVGG);
     
     table.textContent="";
