@@ -118,12 +118,13 @@ function submiting(event) {
     let MINN=parseInt(event.target.minOfNumber.value);
     let AVGG=parseFloat(event.target.avgOfNumber.value);
     let addcookies=new Cookies(name,MAXX,MINN,AVGG);
-    
+    addcookies.cookisAvg();
     table.textContent="";
     console.log(Shop);
 makeHader();
     for (let i = 0; i < Shop.length; i++) {
-        Shop[i].cookisAvg();
+   
+       
         Shop[i].repet(); 
         }
 makeFooter();
