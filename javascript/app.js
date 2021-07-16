@@ -119,14 +119,15 @@ function submiting(event) {
     let AVGG=parseFloat(event.target.avgOfNumber.value);
     let addcookies=new Cookies(name,MAXX,MINN,AVGG);
     table.textContent="";
-//     console.log(Shop);
-
-//     addcookies.cookisAvg();
+// //     console.log(Shop);
+// total=0;
+    addcookies.cookisAvg();
+    ToTalALL=0
 makeHader();
 
     for (let i = 0; i < Shop.length; i++) {
    
-        Shop[i].cookisAvg();
+        // Shop[i].cookisAvg();
 
         Shop[i].repet(); 
         }
