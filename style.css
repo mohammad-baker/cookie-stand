@@ -1,55 +1,104 @@
 tr,th,table,td{
-    border: 2px solid rgb(238, 218, 129);
-    color: blanchedalmond;
+    border: 2px solid rgb(12, 12, 12);
     border-collapse:collapse ;
+    color: rgb(145, 165, 57);
+    background-color: rgb(10, 25, 54);
+
+   
 }
 body{
-    background-color: #402218;
+ 
+    background-color: #355aff;
 }
+
 header{
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(0, 0, 0);
+    height: 600px;
+
+    vertical-align: middle;
     height: 8em;
-    text-align: justify;
-    height: 8em;
-    background-color: #865439;
+    background-image: url('image/images\ \(2\).jpg');
+    width: 100%;
     
 }
 h1{
-    margin-right: 70%;
-    vertical-align: middle;
+
+   text-align: center;
 }
-main{
-    background-color: #C68B59;
-}
+
+
 footer{
     background-color: #D7B19D;
 }
 img{
-    align-items: center;
+    /* align-items: center;
     width: 29%;
-    padding: 2%;
+    padding: 2%; */
+    width: 45%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 50%;
 }
 div{
     align-items: center;
-    display: inline;
+    /* display: inline; */
+    width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  background-image:url(image/images.jpg);
+  border-radius: 60%;
+
 }
-nav{
-    float: right;
-    align-items: center;
-}
-nav ul li{
+/* /* nav{
+    float: right; */
+
+
+ nav ul li{
     display:inline-block;
     vertical-align: middle;
+    text-align: center;
+    margin-left: 2%;
     
     }
 a{
-    padding-left: 70px;
+    padding-left: 30px;
     font-weight: bolder;
     font-size: xx-large;
-    text-decoration: none;
-    color: #dfc37c;
-    height: 100%;
+    text-decoration:darkorchid;
+    color: #000000;
+    /* height: 100%; */
     vertical-align: middle;
 }
 #contain{
     color: cornsilk;
+
+}
+mark{
+    background-color: rgb(44, 42, 165);
+}
+#ocation{
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    background-image: url(image/تنزيل.jpg);
+    width: 100%;
+    border-radius: 5%;
+  border-left: 50%;
+  /* text-align-last: center; */
+  text-align: center;
+
+}
+ul{
+    
+    list-style-type:none;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(3, 46, 82);
+}
+main{
+    background-color: rgb(127, 199, 247);
 }
